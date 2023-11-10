@@ -101,7 +101,7 @@ Avaliando-se a matriz acima, temos um total de verdadeiros positivos previstos p
 
 - Curva ROC do modelo:
 
-![roc_curve_tree.png](graph_results/roc_curve_tree.png)
+![roc_curve_rf.png](graph_results/roc_curve_rf.png)
 
 ## Selecionando o melhor modelo
 
