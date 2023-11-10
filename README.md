@@ -73,7 +73,7 @@ Pelo resultado acima, a quantidade de verdadeiros positivos previstos pelo model
 
 ![roc_curve_lr.png](graph_results/roc_curve_lr.png)
 
-#### Modelos otimizados
+### Modelos otimizados
 
 Para otimizar os hiperparâmetros dos modelos Decision Tree Classifier e Random Forest Classifier testados anteriormente, foi utilizada a função GridSearchCV( ) da biblioteca sklearn, onde é passado um dicionário com os parâmetros que deseja-se otimizar, qual métrica será usada como base para escolher o melhor cenário, qual tipo de cross-validation será feito.
 
