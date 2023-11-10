@@ -107,52 +107,58 @@ Avaliando-se a matriz acima, temos um total de verdadeiros positivos previstos p
 
 Segue abaixo uma tabela comparativa com as métricas calculadas para cada um dos modelos.
 
-<table id="T_11bd9">
+<table id="T_e10d6">
   <thead>
     <tr>
       <th class="blank level0" >&nbsp;</th>
-      <th id="T_11bd9_level0_col0" class="col_heading level0 col0" >Modelos</th>
-      <th id="T_11bd9_level0_col1" class="col_heading level0 col1" >Acurácia</th>
-      <th id="T_11bd9_level0_col2" class="col_heading level0 col2" >Acurácia Balanceada</th>
-      <th id="T_11bd9_level0_col3" class="col_heading level0 col3" >Precisão</th>
-      <th id="T_11bd9_level0_col4" class="col_heading level0 col4" >Recall</th>
-      <th id="T_11bd9_level0_col5" class="col_heading level0 col5" >F1 Score</th>
-      <th id="T_11bd9_level0_col6" class="col_heading level0 col6" >ROC AUC Score</th>
+      <th id="T_e10d6_level0_col0" class="col_heading level0 col0" >Acurácia</th>
+      <th id="T_e10d6_level0_col1" class="col_heading level0 col1" >Acurácia Balanceada</th>
+      <th id="T_e10d6_level0_col2" class="col_heading level0 col2" >Precisão</th>
+      <th id="T_e10d6_level0_col3" class="col_heading level0 col3" >Recall</th>
+      <th id="T_e10d6_level0_col4" class="col_heading level0 col4" >F1 Score</th>
+      <th id="T_e10d6_level0_col5" class="col_heading level0 col5" >ROC AUC Score</th>
+    </tr>
+    <tr>
+      <th class="index_name level0" >Modelos</th>
+      <th class="blank col0" >&nbsp;</th>
+      <th class="blank col1" >&nbsp;</th>
+      <th class="blank col2" >&nbsp;</th>
+      <th class="blank col3" >&nbsp;</th>
+      <th class="blank col4" >&nbsp;</th>
+      <th class="blank col5" >&nbsp;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th id="T_11bd9_level0_row0" class="row_heading level0 row0" >0</th>
-      <td id="T_11bd9_row0_col0" class="data row0 col0" >LogisticRegression</td>
-      <td id="T_11bd9_row0_col1" class="data row0 col1" >78.68%</td>
-      <td id="T_11bd9_row0_col2" class="data row0 col2" >70.04%</td>
-      <td id="T_11bd9_row0_col3" class="data row0 col3" >61.86%</td>
-      <td id="T_11bd9_row0_col4" class="data row0 col4" >51.60%</td>
-      <td id="T_11bd9_row0_col5" class="data row0 col5" >56.27%</td>
-      <td id="T_11bd9_row0_col6" class="data row0 col6" >83.19%</td>
+      <th id="T_e10d6_level0_row0" class="row_heading level0 row0" >LogisticRegression</th>
+      <td id="T_e10d6_row0_col0" class="data row0 col0" >78.68%</td>
+      <td id="T_e10d6_row0_col1" class="data row0 col1" >70.04%</td>
+      <td id="T_e10d6_row0_col2" class="data row0 col2" >61.86%</td>
+      <td id="T_e10d6_row0_col3" class="data row0 col3" >51.60%</td>
+      <td id="T_e10d6_row0_col4" class="data row0 col4" >56.27%</td>
+      <td id="T_e10d6_row0_col5" class="data row0 col5" >83.19%</td>
     </tr>
     <tr>
-      <th id="T_11bd9_level0_row1" class="row_heading level0 row1" >1</th>
-      <td id="T_11bd9_row1_col0" class="data row1 col0" >DecisionTreeClassifier - Otimizado</td>
-      <td id="T_11bd9_row1_col1" class="data row1 col1" >77.33%</td>
-      <td id="T_11bd9_row1_col2" class="data row1 col2" >70.66%</td>
-      <td id="T_11bd9_row1_col3" class="data row1 col3" >57.49%</td>
-      <td id="T_11bd9_row1_col4" class="data row1 col4" >56.42%</td>
-      <td id="T_11bd9_row1_col5" class="data row1 col5" >56.95%</td>
-      <td id="T_11bd9_row1_col6" class="data row1 col6" >81.41%</td>
+      <th id="T_e10d6_level0_row1" class="row_heading level0 row1" >DecisionTreeClassifier - Otimizado</th>
+      <td id="T_e10d6_row1_col0" class="data row1 col0" >77.33%</td>
+      <td id="T_e10d6_row1_col1" class="data row1 col1" >70.66%</td>
+      <td id="T_e10d6_row1_col2" class="data row1 col2" >57.49%</td>
+      <td id="T_e10d6_row1_col3" class="data row1 col3" >56.42%</td>
+      <td id="T_e10d6_row1_col4" class="data row1 col4" >56.95%</td>
+      <td id="T_e10d6_row1_col5" class="data row1 col5" >81.41%</td>
     </tr>
     <tr>
-      <th id="T_11bd9_level0_row2" class="row_heading level0 row2" >2</th>
-      <td id="T_11bd9_row2_col0" class="data row2 col0" >RandomForestClassifier - Otimizado</td>
-      <td id="T_11bd9_row2_col1" class="data row2 col1" >78.61%</td>
-      <td id="T_11bd9_row2_col2" class="data row2 col2" >68.37%</td>
-      <td id="T_11bd9_row2_col3" class="data row2 col3" >63.27%</td>
-      <td id="T_11bd9_row2_col4" class="data row2 col4" >46.52%</td>
-      <td id="T_11bd9_row2_col5" class="data row2 col5" >53.62%</td>
-      <td id="T_11bd9_row2_col6" class="data row2 col6" >83.15%</td>
+      <th id="T_e10d6_level0_row2" class="row_heading level0 row2" >RandomForestClassifier - Otimizado</th>
+      <td id="T_e10d6_row2_col0" class="data row2 col0" >78.61%</td>
+      <td id="T_e10d6_row2_col1" class="data row2 col1" >68.37%</td>
+      <td id="T_e10d6_row2_col2" class="data row2 col2" >63.27%</td>
+      <td id="T_e10d6_row2_col3" class="data row2 col3" >46.52%</td>
+      <td id="T_e10d6_row2_col4" class="data row2 col4" >53.62%</td>
+      <td id="T_e10d6_row2_col5" class="data row2 col5" >83.15%</td>
     </tr>
   </tbody>
 </table>
+
 
 Pelos resultados da tabela acima, percebe-se que os 3 modelos tiveram métricas muito parecidas de performance. A única que destoou um pouco foi o Recall, onde obteve-se dados variando de 46 até 56%. Isto indica que o modelo Random Forest, cujo apresentou o pior índice Recall, apresentou mais falsos negativos que os demais. Ou seja, julgou como churn mais clientes que na verdade não eram churn.
 
